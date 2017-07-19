@@ -1,0 +1,9 @@
+CREATE DATABASE usuarios;
+
+create table usuario(
+id int(9) NOT NULL AUTO_INCREMENT,
+nombre varchar(20),
+apellidos varchar(20),
+edad int(3) NOT NULL, 
+primary key (id) );
+
